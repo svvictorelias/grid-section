@@ -94,11 +94,16 @@ img{
     main{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 270px 270px 270px;
+        grid-template-rows: 270px 270px 250px;
         grid-template-areas: "c1 c1 c2" "c3 c4 c4" "c5 c5 c5";
         max-width: 1200px;
         grid-gap: 20px 25px;
         padding: 15px;
+    }
+}
+@media only screen and (max-width: 995px){
+    main{
+        grid-template-rows: 285px 285px 250px;
     }
 }
 @media only screen and (max-width: 800px){
