@@ -115,7 +115,7 @@ img{
     main{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 275px;
+        grid-template-rows: 280px;
         grid-template-areas: "c1" "c2" "c3" "c4" "c5" ;
         max-width: 1000px;
         grid-gap: 20px 25px;
@@ -124,16 +124,16 @@ img{
 }
 @media only screen and (max-width: 610px){
     main{
-        grid-template-rows: 315px;
+        grid-template-rows: 320px;
     }
 }
 @media only screen and (max-width: 474px){
     main{
-        grid-template-rows: 360px;
+        grid-template-rows: 365px;
     }
 }
 @media only screen and (max-width: 400px){
     main{
-        grid-template-rows: 430px;
+        grid-template-rows: 435px;
     }
 }
