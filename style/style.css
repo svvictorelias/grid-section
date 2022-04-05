@@ -94,7 +94,7 @@ img{
     main{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 275px 270px 250px;
+        grid-template-rows: 40% 30% 30%;
         grid-template-areas: "c1 c1 c2" "c3 c4 c4" "c5 c5 c5";
         max-width: 1200px;
         grid-gap: 20px 25px;
